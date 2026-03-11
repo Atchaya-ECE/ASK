@@ -109,11 +109,7 @@ plt.show()
 ```
 
 # ASK Output Waveform
-
 <img width="978" height="887" alt="image" src="https://github.com/user-attachments/assets/634c2ef1-13fb-41d9-9636-4d219a536b46" />
-
-
-
 
 # FSK Output Waveform
 
