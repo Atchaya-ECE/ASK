@@ -1,3 +1,5 @@
+# Reg.no : 212224060031
+# Name   : V.Atchaya
 # ASK & FSK
 # Aim
  Write a simple Python program for the modulation and demodulation of ASK and FSK.
