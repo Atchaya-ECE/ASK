@@ -74,7 +74,6 @@ d2 = lpf(fsk * c2, f2, fs)
 dec = [(np.sum(d2[i*bd:(i+1)*bd]**2) >
         np.sum(d1[i*bd:(i+1)*bd]**2)) for i in range(br)]
 demod = np.repeat(dec, bd)
-# Plot
 plt.figure(figsize=(10,10))
 plt.suptitle("NAME : ATCHAYA V\nREG NO : 212224060031",
              fontsize=12, fontweight='bold')   
