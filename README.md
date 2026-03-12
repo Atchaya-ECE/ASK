@@ -1,5 +1,5 @@
-# Reg.no : 212224060031
-# Name   : V.Atchaya
+## Reg.no : 212224060031
+## Name   : V.Atchaya
 # ASK & FSK
 # Aim
  Write a simple Python program for the modulation and demodulation of ASK and FSK.
@@ -40,19 +40,15 @@ plt.suptitle("NAME : ATCHAYA V\nREG NO : 212224060031",
 plt.subplot(4,1,1)
 plt.plot(t, msg)
 plt.title("Message Signal")
-
 plt.subplot(4,1,2)
 plt.plot(t, carrier)
 plt.title("Carrier Signal")
-
 plt.subplot(4,1,3)
 plt.plot(t, ask)
 plt.title("ASK Modulated Signal")
-
 plt.subplot(4,1,4)
 plt.step(range(len(decoded)), decoded, where='mid')
 plt.title("Decoded Bits")
-
 plt.tight_layout(rect=[0,0,1,0.93])
 plt.show()
 ```
@@ -107,12 +103,10 @@ plt.subplot(5,1,5); plt.plot(t, demod); plt.title("Demodulated Signal")
 plt.tight_layout(rect=[0,0,1,0.93])
 plt.show()
 ```
-
 # ASK Output Waveform
 <img width="978" height="887" alt="image" src="https://github.com/user-attachments/assets/634c2ef1-13fb-41d9-9636-4d219a536b46" />
 
 # FSK Output Waveform
-
 <img width="989" height="985" alt="image" src="https://github.com/user-attachments/assets/57eb2c4b-6d5d-493d-9a3b-f3477c662b59" />
 
 # Results
